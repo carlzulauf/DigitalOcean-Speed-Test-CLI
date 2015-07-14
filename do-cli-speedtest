@@ -7,7 +7,7 @@ version="v0.5.8"
 # Variables
 ##
 
-dataCenters=(speedtest-{ams{1..3},nyc{1..3},lon1,sfo1,sgp1,fra1}.digitalocean.com)
+dataCenters=(speedtest-{nyc{1..3},sfo1}.digitalocean.com)
 userAgent="DigitalOcean Speed Test CLI $version - https://github.com/ZacharyDuBois/DigitalOcean-Speed-Test-CLI"
 testType=$1
 
